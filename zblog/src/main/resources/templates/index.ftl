@@ -12,16 +12,16 @@
                     </div>
                     <ul class="fly-list">
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
                                     <i class="layui-badge fly-badge-vip">VIP3</i>
@@ -42,16 +42,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">公告</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -74,16 +74,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">公告</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -106,16 +106,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">公告</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -159,16 +159,16 @@
 
                     <ul class="fly-list">
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">分享</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -188,16 +188,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--<i class="iconfont icon-renzheng" title="认证信息：XXX"></i>-->
                                     <i class="layui-badge fly-badge-vip">VIP3</i>
@@ -215,16 +215,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -244,16 +244,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -273,16 +273,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -302,16 +302,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -331,16 +331,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -360,16 +360,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -389,16 +389,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -418,16 +418,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -447,16 +447,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -476,16 +476,16 @@
                             </div>
                         </li>
                         <li>
-                            <a href="user/home.html" class="fly-avatar">
+                            <a href="../temp/user/home.html" class="fly-avatar">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                                      alt="贤心">
                             </a>
                             <h2>
                                 <a class="layui-badge">动态</a>
-                                <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                                <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                             </h2>
                             <div class="fly-list-info">
-                                <a href="user/home.html" link>
+                                <a href="../temp/user/home.html" link>
                                     <cite>贤心</cite>
                                     <!--
                                     <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
@@ -507,7 +507,7 @@
                     </ul>
                     <div style="text-align: center">
                         <div class="laypage-main">
-                            <a href="jie/index.html" class="laypage-next">更多求解</a>
+                            <a href="../temp/jie/index.html" class="laypage-next">更多求解</a>
                         </div>
                     </div>
 
@@ -570,62 +570,62 @@
                     <dl>
                         <!--<i class="layui-icon fly-loading">&#xe63d;</i>-->
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
                         <dd>
-                            <a href="user/home.html">
+                            <a href="../temp/user/home.html">
                                 <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                             </a>
                         </dd>
@@ -635,43 +635,43 @@
                 <dl class="fly-panel fly-list-one">
                     <dt class="fly-panel-title">本周热议</dt>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
                     <dd>
-                        <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
+                        <a href="../temp/jie/detail.html">基于 layui 的极简社区页面模版</a>
                         <span><i class="iconfont icon-pinglun1"></i> 16</span>
                     </dd>
 

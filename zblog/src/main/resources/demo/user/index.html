@@ -1,10 +1,9 @@
- 
- 
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-  <title>激活邮箱</title>
+  <title>用户中心</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="keywords" content="fly,layui,前端社区">
   <meta name="description" content="Fly社区是模块化前端UI框架Layui的官网社区，致力于为web开发提供强劲动力">
@@ -15,12 +14,12 @@
 
 <div class="fly-header layui-bg-black">
   <div class="layui-container">
-    <a class="fly-logo" href="/">
+    <a class="fly-logo" href="/static">
       <img src="../../res/images/logo.png" alt="layui">
     </a>
     <ul class="layui-nav fly-nav layui-hide-xs">
       <li class="layui-nav-item layui-this">
-        <a href="/"><i class="iconfont icon-jiaoliu"></i>交流</a>
+        <a href="/static"><i class="iconfont icon-jiaoliu"></i>交流</a>
       </li>
       <li class="layui-nav-item">
         <a href="../case/case.html"><i class="iconfont icon-iconmingxinganli"></i>案例</a>
@@ -40,9 +39,9 @@
           <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg">
         </a>
         <dl class="layui-nav-child">
-          <dd><a href="../user/set.html"><i class="layui-icon">&#xe620;</i>基本设置</a></dd>
-          <dd><a href="../user/message.html"><i class="iconfont icon-tongzhi" style="top: 4px;"></i>我的消息</a></dd>
-          <dd><a href="../user/home.html"><i class="layui-icon" style="margin-left: 2px; font-size: 22px;">&#xe68e;</i>我的主页</a></dd>
+          <dd><a href="l"><i class="layui-icon">&#xe620;</i>基本设置</a></dd>
+          <dd><a href=".html"><i class="iconfont icon-tongzhi" style="top: 4px;"></i>我的消息</a></dd>
+          <dd><a href="ml"><i class="layui-icon" style="margin-left: 2px; font-size: 22px;">&#xe68e;</i>我的主页</a></dd>
           <hr style="margin: 5px 0;">
           <dd><a href="" style="text-align: center;">退出</a></dd>
         </dl>
@@ -91,39 +90,51 @@
   
   
   <div class="fly-panel fly-panel-user" pad20>
+    <!--
+    <div class="fly-msg" style="margin-top: 15px;">
+      您的邮箱尚未验证，这比较影响您的帐号安全，<a href="activate.html">立即去激活？</a>
+    </div>
+    -->
     <div class="layui-tab layui-tab-brief" lay-filter="user">
-      <ul class="layui-tab-title">
-        <li class="layui-this">
-          激活邮箱
-        </li>
+      <ul class="layui-tab-title" id="LAY_mine">
+        <li data-type="mine-jie" lay-id="index" class="layui-this">我发的帖（<span>89</span>）</li>
+        <li data-type="collection" data-url="/collection/find/" lay-id="collection">我收藏的帖（<span>16</span>）</li>
       </ul>
-      <div class="layui-tab-content" id="LAY_ucm" style="padding: 20px 0;">
-        <ul class="layui-form">
-          <li class="layui-form-li">
-            <label for="activate">您的邮箱：</label>
-            <span class="layui-form-text">xx@xx.com
-              <!-- <em style="color:#999;">（已成功激活）</em> -->
-              <em style="color:#c00;">（尚未激活）</em>
-            </span>
-          </li>
-          <li class="layui-form-li" style="margin-top: 20px; line-height: 26px;">
-            <div>
-              1. 如果您未收到邮件，或激活链接失效，您可以
-              <a class="layui-form-a" style="color:#4f99cf;" id="LAY-activate" href="javascript:;" email="{{user.email}}">重新发送邮件</a>，或者
-              <a class="layui-form-a" style="color:#4f99cf;" href="set.html">更换邮箱</a>；
-            </div>
-            <div>
-              2. 如果您始终没有收到 Fly 发送的邮件，请注意查看您邮箱中的垃圾邮件；
-            </div>
-            <div>
-              3. 如果你实在无法激活邮件，您还可以联系：admin@xx.com
-            </div>
-          </li>
-        </ul>
+      <div class="layui-tab-content" style="padding: 20px 0;">
+        <div class="layui-tab-item layui-show">
+          <ul class="mine-view jie-row">
+            <li>
+              <a class="jie-title" href="../jie/detail.html" target="_blank">基于 layui 的极简社区页面模版</a>
+              <i>2017/3/14 上午8:30:00</i>
+              <a class="mine-edit" href="/jie/edit/8116">编辑</a>
+              <em>661阅/10答</em>
+            </li>
+            <li>
+              <a class="jie-title" href="../jie/detail.html" target="_blank">基于 layui 的极简社区页面模版</a>
+              <i>2017/3/14 上午8:30:00</i>
+              <a class="mine-edit" href="/jie/edit/8116">编辑</a>
+              <em>661阅/10答</em>
+            </li>
+            <li>
+              <a class="jie-title" href="../jie/detail.html" target="_blank">基于 layui 的极简社区页面模版</a>
+              <i>2017/3/14 上午8:30:00</i>
+              <a class="mine-edit" href="/jie/edit/8116">编辑</a>
+              <em>661阅/10答</em>
+            </li>
+          </ul>
+          <div id="LAY_page"></div>
+        </div>
+        <div class="layui-tab-item">
+          <ul class="mine-view jie-row">
+            <li>
+              <a class="jie-title" href="../jie/detail.html" target="_blank">基于 layui 的极简社区页面模版</a>
+              <i>收藏于23小时前</i>  </li>
+          </ul>
+          <div id="LAY_page1"></div>
+        </div>
       </div>
     </div>
   </div>
-  
 </div>
 
 <div class="fly-footer">
