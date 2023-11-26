@@ -4,7 +4,7 @@
     <html>
     <head>
         <meta charset="utf-8">
-        <title>基于 layui 的极简社区页面模版</title>
+        <title>${title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="keywords" content="fly,layui,前端社区">
         <meta name="description" content="Fly社区是模块化前端UI框架Layui的官网社区，致力于为web开发提供强劲动力">
@@ -20,7 +20,7 @@
 <#--    引用此模板的文件内容，在此处填充-->
     <#nested >
 
-    <#include "footer.ftl" />
+    <#include "footer.ftl" >
 
     <script src="../res/layui/layui.js"></script>
     <script>
