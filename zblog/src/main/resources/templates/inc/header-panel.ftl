@@ -3,6 +3,7 @@
     <div class="layui-container">
         <ul class="layui-clear">
             <#if currentCategoryId??>
+<#--                在indexcontroller 中定义 这个分类的id，0表示是首页-->
             <li class="${(0 == currentCategoryId)?string('layui-hide-xs layui-this','')}"><a href="/">首页</a></li>
 <#--            <#if lists?? && lists?size gt 0>-->
 
