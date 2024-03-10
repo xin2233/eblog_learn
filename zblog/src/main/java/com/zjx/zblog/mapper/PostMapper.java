@@ -7,8 +7,8 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.zjx.zblog.entity.Post;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.zjx.zblog.vo.PostVo;
-import io.lettuce.core.dynamic.annotation.Param;
-import io.netty.util.Constant;
+//import io.lettuce.core.dynamic.annotation.Param;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;
 
 /**
@@ -23,4 +23,5 @@ import org.springframework.stereotype.Component;
 public interface PostMapper extends BaseMapper<Post> {
 
     IPage<PostVo> selectPost(Page page, @Param(Constants.WRAPPER) QueryWrapper wrapper);
+//    IPage<PostVo> selectPosts(Page page, @Param(Constants.WRAPPER) QueryWrapper wrapper);
 }

@@ -9,6 +9,7 @@ public class PostVo extends Post {
     private String authorName;
     private String authorAvatar;
 
+//    已经有了
 //    private Long categoryId;
     private String categoryName;
 

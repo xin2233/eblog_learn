@@ -2,6 +2,7 @@ package com.zjx.zblog;
 
 import com.zjx.zblog.entity.User;
 import com.zjx.zblog.service.UserService;
+//import org.junit.Test;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

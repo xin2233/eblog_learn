@@ -2,20 +2,18 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zjx.zblog.mapper.PostMapper">
 
-    <select id="selectPosts" resultType="com.zjx.zblog.vo.PostVo">
-        SELECT
-            p.*,
+    <select id="selectPost" resultType="com.zjx.zblog.vo.PostVo">
+        SELECT p.*,
+               u.id       AS authorId,
 
-            u.id AS authorId,
                u.username AS authorName,
-               u.avatar AS authorAvatar,
+               u.avatar   AS authorAvatar,
 
-               c.id AS categoryID,
-               c. NAME AS categoryName
-        FROM
-            post p
-        LEFT JOIN USER u ON p.user_id = u.id
+               c.id       AS categoryID,
+               c.NAME     AS categoryName
+        FROM post p
+        LEFT JOIN user u ON p.user_id = u.id
         LEFT JOIN category c ON p.category_id = c.id
-
+        ${ew.customSqlSegment}
     </select>
 </mapper>

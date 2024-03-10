@@ -29,6 +29,7 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
     public IPage<PostVo> paging(Page page, Long categoryId, Long userId, Integer level, Boolean recommend, String order) {
 
         if (level == null) level = -1;
+
         QueryWrapper wrapper = new QueryWrapper<Post>()
             .eq(categoryId != null, "category_id", categoryId)
             .eq(userId != null, "user_id", userId)
