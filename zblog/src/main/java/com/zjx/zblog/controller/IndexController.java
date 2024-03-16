@@ -21,9 +21,8 @@ public class IndexController extends BaseController {
         IPage results = postService.paging(page, null, null, null, null, "created");
         req.setAttribute("pageData", results);
 
-
-        /**
-         * 设置index界面的id 是 0
+        /*
+          设置index界面的id 是 0
          */
         req.setAttribute("currentCategoryId", 0);
         return "index";
