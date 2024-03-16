@@ -22,6 +22,5 @@ import org.springframework.stereotype.Component;
 @Component
 public interface PostMapper extends BaseMapper<Post> {
 
-    IPage<PostVo> selectPost(Page page, @Param(Constants.WRAPPER) QueryWrapper wrapper);
-//    IPage<PostVo> selectPosts(Page page, @Param(Constants.WRAPPER) QueryWrapper wrapper);
+    IPage<PostVo> selectPosts(Page page, @Param(Constants.WRAPPER) QueryWrapper wrapper);
 }

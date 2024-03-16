@@ -12,6 +12,7 @@ public class IndexController extends BaseController {
     @RequestMapping({"", "/", "/index"})
     public String index() {
 
+        // pn 是page number
         int pn = ServletRequestUtils.getIntParameter(req, "pn",1);
         int size = ServletRequestUtils.getIntParameter(req, "size", 2);
 

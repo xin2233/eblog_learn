@@ -198,11 +198,9 @@
                         </li>
                         </#list>
                     </ul>
-                    <div style="text-align: center">
-                        <div class="laypage-main">
-                            <a href="../temp/jie/index.html" class="laypage-next">更多求解</a>
-                        </div>
-                    </div>
+
+<#--                    分页-->
+                    <@paging pageData></@paging>
 
                 </div>
             </div>
