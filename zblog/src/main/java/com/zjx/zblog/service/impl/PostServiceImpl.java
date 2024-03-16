@@ -31,12 +31,12 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         if (level == null) level = -1;
 
         QueryWrapper wrapper = new QueryWrapper<Post>()
-            .eq(categoryId != null, "category_id", categoryId)
-            .eq(userId != null, "user_id", userId)
-            .eq(level == 0, "level", 0)
-            .gt(level > 0, "level", 0)
-            .orderByDesc(order != null,order);
+                .eq(categoryId != null,  "category_id", categoryId)
+                .eq(userId != null,  "user_id", userId)
+                .eq(level == 0,  "level", 0)
+                .gt(level > 0,  "level", 0)
+                .orderByDesc(order != null, order);
 
-        return postMapper.selectPost(page, wrapper);
+        return postMapper.selectPosts(page, wrapper);
     }
 }
