@@ -1,4 +1,6 @@
 spring:
+#  mvc:
+#    static-path-pattern: /res/** # 设置静态目录默认位置
   datasource:
     #driver-class-name: com.mysql.cj.jdbc.Driver
     driver-class-name: com.p6spy.engine.spy.P6SpyDriver
@@ -23,6 +25,7 @@ spring:
     template-loader-path: classpath:/templates/
     #设定Template的编码
     charset: UTF-8
+
 
 #配置server端口
 server:
