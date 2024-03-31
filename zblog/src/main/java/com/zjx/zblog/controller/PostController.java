@@ -2,7 +2,10 @@ package com.zjx.zblog.controller;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.zjx.zblog.entity.Comment;
 import com.zjx.zblog.entity.Post;
+import com.zjx.zblog.vo.CommentVo;
 import com.zjx.zblog.vo.PostVo;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.Assert;
@@ -42,6 +45,9 @@ public class PostController extends BaseController {
         PostVo vo = postService.selectOnePost(new QueryWrapper<Post>().eq("p.id", id));
         Assert.notNull(vo, "文章已被删除");
 
+        IPage<CommentVo> results = commentService.paging(getPage(), vo.getId(), null, "created");
+
+        req.setAttribute("commentData", results);
         req.setAttribute("currentCategoryId", vo.getCategoryId());
         req.setAttribute("post", vo);
 
