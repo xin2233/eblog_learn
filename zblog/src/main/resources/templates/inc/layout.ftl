@@ -1,17 +1,48 @@
 <#-- Layout -->
 <#macro layout title>
     <!DOCTYPE html>
-    <html lang="zh-CN">
+    <html>
     <head>
         <meta charset="utf-8">
-        <meta >
-        <!--[if IE]>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'/>
-        <![endif]-->
-        <title>${title?default('java思维导图')}</title>
+        <title>${title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="keywords" content="fly,layui,前端社区">
+        <meta name="description" content="Fly社区是模块化前端UI框架Layui的官网社区，致力于为web开发提供强劲动力">
+        <link rel="stylesheet" href="/res/layui/css/layui.css">
+        <link rel="stylesheet" href="/res/css/global.css">
+        <script src="/res/layui/layui.js"></script>
     </head>
     <body>
-    <#nested>
+
+
+    <#include "header.ftl">
+
+    <#include "common.ftl">
+
+    <#include "header-panel.ftl">
+
+<#--    引用此模板的文件内容，在此处填充-->
+    <#nested >
+
+    <#include "footer.ftl" >
+
+    <script>
+        layui.cache.page = '';
+        layui.cache.user = {
+            username: '游客'
+            , uid: -1
+            , avatar: '/res/images/avatar/00.jpg'
+            , experience: 83
+            , sex: '男'
+        };
+        layui.config({
+            version: "3.0.0"
+            , base: '/res/mods/' //这里实际使用时，建议改成绝对路径
+        }).extend({
+            fly: 'index'
+        }).use('fly');
+    </script>
+
     </body>
     </html>
 </#macro>
