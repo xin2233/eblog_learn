@@ -18,6 +18,10 @@ public class BaseController {
     @Autowired
     CommentService commentService;
 
+    /**
+     *
+     * @return
+     */
     public Page getPage() {
         // pn 是page number , 页面信息，分页信息
         int pn = ServletRequestUtils.getIntParameter(req, "pn",1);

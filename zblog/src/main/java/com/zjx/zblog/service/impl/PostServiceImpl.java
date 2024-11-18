@@ -25,6 +25,16 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
     @Autowired
     PostMapper postMapper;
 
+    /**
+     *
+     * @param page
+     * @param categoryId
+     * @param userId
+     * @param level
+     * @param recommend
+     * @param order
+     * @return
+     */
     @Override
     public IPage<PostVo> paging(Page page, Long categoryId, Long userId, Integer level, Boolean recommend, String order) {
 
@@ -40,6 +50,11 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         return postMapper.selectPosts(page, wrapper);
     }
 
+    /**
+     *
+     * @param wrapper
+     * @return
+     */
     @Override
     public PostVo selectOnePost(QueryWrapper<Post> wrapper) {
         return postMapper.selectOnePost(wrapper);

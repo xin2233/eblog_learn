@@ -29,7 +29,11 @@ import com.zjx.zblog.controller.BaseController;
 //@RestController
 //@RequestMapping("/post")
 public class PostController extends BaseController {
-    //    \\d* 是指定id参数为数字类型
+    /**
+     *
+     * @param id \\d* 是指定id参数为数字类型
+     * @return
+     */
     @GetMapping("/category/{id:\\d*}")
     public String category(@PathVariable(name = "id") Long id) {
         Integer pn = ServletRequestUtils.getIntParameter(req, "pn", 1);
@@ -39,6 +43,11 @@ public class PostController extends BaseController {
         return "post/category";
     }
 
+    /**
+     *
+     * @param id
+     * @return
+     */
     @GetMapping("/post/{id:\\d*}")
     public String detail(@PathVariable(name = "id") Long id) {
 

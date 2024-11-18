@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class IndexController extends BaseController {
+    /**
+     *
+     * @return
+     */
     @RequestMapping({"", "/", "/index"})
     public String index() {
 
