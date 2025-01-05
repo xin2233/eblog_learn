@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController extends BaseController {
     /**
-     *
      * @return
      */
     @RequestMapping({"", "/", "/index"})
@@ -20,9 +19,7 @@ public class IndexController extends BaseController {
         IPage results = postService.paging(getPage(), null, null, null, null, "created");
         req.setAttribute("pageData", results);
 
-        /*
-          设置index界面的id 是 0
-         */
+        /* 设置index界面的id 是 0 */
         req.setAttribute("currentCategoryId", 0);
         return "index";
     }

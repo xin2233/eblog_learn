@@ -1,5 +1,6 @@
 package com.zjx.zblog.config;
 
+import com.zjx.zblog.template.HotsTemplate;
 import com.zjx.zblog.template.PostsTemplate;
 import com.zjx.zblog.template.TimeAgoMethod;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,15 +17,15 @@ public class FreemarkerConfig {
     @Autowired
     PostsTemplate postsTemplate;
 
-//    @Autowired
-//    HotsTemplate hotsTemplate;
+    @Autowired
+    HotsTemplate hotsTemplate;
 
     @PostConstruct
     public void setUp() {
         configuration.setSharedVariable("timeAgo", new TimeAgoMethod());
         configuration.setSharedVariable("posts", postsTemplate);
-//        configuration.setSharedVariable("hots", hotsTemplate);
-//        configuration.setSharedVariable("shiro", new ShiroTags());
+        configuration.setSharedVariable("hots", hotsTemplate);
+        //configuration.setSharedVariable("shiro", new ShiroTags());
     }
 
 }

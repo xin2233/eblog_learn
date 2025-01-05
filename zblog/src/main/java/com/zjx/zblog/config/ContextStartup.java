@@ -3,6 +3,7 @@ package com.zjx.zblog.config;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.zjx.zblog.entity.Category;
 import com.zjx.zblog.service.CategoryService;
+import com.zjx.zblog.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -20,17 +21,23 @@ public class ContextStartup implements ApplicationRunner, ServletContextAware {
 
     ServletContext servletContext;
 
+    @Autowired
+    PostService postService;
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
-//        在网站刚开始的时候，就将数据库的分类的数据读到缓存中，这样不用频繁读数据库
+        //在网站刚开始的时候，就将数据库的分类的数据读到缓存中，这样不用频繁读数据库
         List<Category> categories = categoryService.list(new QueryWrapper<Category>()
                 .eq("status", 0)
         );
 
-//        System.out.println("%s", categories);
+        //System.out.println("%s", categories);
 
-//        将读到的数据注入到 页面中的变量里
+        //将读到的数据注入到 页面中的变量里
         servletContext.setAttribute("categoryS", categories);
+
+        //设置本周热议
+        postService.initWeekRank();
     }
 
 

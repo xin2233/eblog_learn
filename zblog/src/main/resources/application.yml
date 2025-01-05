@@ -4,7 +4,7 @@ spring:
   datasource:
     #driver-class-name: com.mysql.cj.jdbc.Driver
     driver-class-name: com.p6spy.engine.spy.P6SpyDriver
-    url: jdbc:p6spy:mysql://192.168.19.146:3306/eblogdb?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=CST
+    url: jdbc:p6spy:mysql://192.168.18.128:3307/eblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=CST
     username: root
     password: 123456
   freemarker:
@@ -26,6 +26,11 @@ spring:
     #设定Template的编码
     charset: UTF-8
 
+  redis:
+    host: 192.168.18.128
+    port: 6379
+    password:
+    database: 0
 
 #配置server端口
 server:

@@ -19,7 +19,7 @@ import com.zjx.zblog.controller.BaseController;
 
 /**
  * <p>
- *  前端控制器
+ * 前端控制器
  * </p>
  *
  * @author superXin
@@ -30,7 +30,6 @@ import com.zjx.zblog.controller.BaseController;
 //@RequestMapping("/post")
 public class PostController extends BaseController {
     /**
-     *
      * @param id \\d* 是指定id参数为数字类型
      * @return
      */
@@ -44,7 +43,6 @@ public class PostController extends BaseController {
     }
 
     /**
-     *
      * @param id
      * @return
      */

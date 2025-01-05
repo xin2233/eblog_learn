@@ -16,6 +16,7 @@ public class PostsTemplate extends TemplateDirective {
 
     @Override
     public String getName() {
+        // 需要再FreemarkerConfig 中 setSharedVariable
         return "posts";  // 标签名字，用于freemark
     }
 
