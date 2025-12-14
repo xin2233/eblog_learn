@@ -39,6 +39,14 @@ public class PostController extends BaseController {
 
         req.setAttribute("currentCategoryId", id);
         req.setAttribute("pn", pn);
+
+        /*
+          这个字符串是 Spring MVC 的视图名（view name），它的作用是告诉 Spring：
+            Spring 的 FreeMarkerViewResolver 会把它拼成
+            classpath:/templates/post/category.ftl
+          所以控制器这句话等价于：
+          “把 /templates/post/category.ftl 这套 FreeMarker 模板渲染完，把结果作为 HTML 返回给浏览器。”
+         */
         return "post/category";
     }
 
